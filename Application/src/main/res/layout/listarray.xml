@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2015 GT Silicon Pvt Ltd
+
+     Licensed under the Creative Commons Attribution 4.0
+     International Public License (the "CCBY4.0 License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+     https://creativecommons.org/licenses/by/4.0/legalcode
+
+     Note that the CCBY4.0 license is applicable only for the modifications made
+     by GT Silicon Pvt Ltd
+    -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativelayout">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/label1"
+        android:background="@drawable/sticky_note11"
+        android:textSize="20dp"
+        android:text="About MIMU"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:textColor="#0551df" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/label2"
+        android:textSize="20dp"
+        android:background="@drawable/sticky_note11"
+        android:text="About DaRe"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/label1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:textColor="#0551df" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/label3"
+        android:textSize="20dp"
+        android:text="START"
+        android:background="@drawable/sticky_note11"
+        android:gravity="center"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/label2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="#0551df" />
+
+</RelativeLayout>

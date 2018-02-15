@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2015 GT Silicon Pvt Ltd
+
+     Licensed under the Creative Commons Attribution 4.0
+     International Public License (the "CCBY4.0 License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+     https://creativecommons.org/licenses/by/4.0/legalcode
+
+     Note that the CCBY4.0 license is applicable only for the modifications made
+     by GT Silicon Pvt Ltd
+    -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal">
+
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/mimu"
+                android:layout_column="1" />
+        </TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mimu"
+            android:text="@string/intro_mimu"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp" />
+    </TableLayout>
+</ScrollView>
+</RelativeLayout>

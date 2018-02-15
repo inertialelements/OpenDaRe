@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright 2013 The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">OpenDaRe</string>
+    <string name="MIMU">MIMU</string>
+    <string name="app_version">OpenDare</string>
+  <string name="intro_message">
+        <![CDATA[
+        
+            
+            This application allows two Android devices to carry out two-way text chat over
+            Bluetooth. It demonstrates all the fundamental Bluetooth API capabilites, such as:
+              (1) Scanning for other Bluetooth devices
+              (2) Querying the local Bluetooth adapter for paired Bluetooth devices
+              (3) Establishing RFCOMM channels/sockets
+              (4) Connecting to a remote device
+              (5) Transfering data over Bluetooth
+            
+        
+        ]]>
+    </string>
+    <string name="intro_mimu">
+
+The Osmium MIMU22BTP(X) / MIMU22B9P(X) simplifies foot-mounted Pedestrian Dead Reckoning (PDR). It enables superior tracking performance, offers ease of building applications and allows use of a simple interfacing application platform (like Android based phone) for tracking without using any pre-installed infrastructure like GPS, WiFi, Maps etc. It is the packaged version of the Osmium MIMU22BT / MIMU22B9 and is utilized best for rapid prototyping and development of pedestrian navigation solutions. Form factor tailoring and price-performance optimization can be done for larger quantities.
+    </string>
+    <string name="dare">
+        DaRe - Data recording application for Android devices. DaRe performs pedestrian dead reckoning by constructing the tracked path using data obtained from MIMU22BTP(X) / MIMU22B9P(X) .
+    </string>
+</resources>
